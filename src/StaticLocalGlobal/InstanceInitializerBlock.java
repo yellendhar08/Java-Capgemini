@@ -13,3 +13,4 @@ public class InstanceInitializerBlock {
 
     }
 }
+//to execute INstance inituiialer block and excute non static method before the execution of mAIN METHOD
