@@ -16,3 +16,4 @@ public class Time {
     }
 }
 
+//WAJP to create a static method to return address of an object
