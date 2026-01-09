@@ -7,12 +7,15 @@ public class AbstractStart {
         System.out.println(obj1.add(10,15));
         Son obj2 = (Son) obj1; //down casting
         obj2.okay();
+
+
     }
 }
 abstract class Father{
     abstract public void test();
     abstract public int add(int a, int b);
 }
+
 class Son extends Father{
     @Override
     public void test(){
