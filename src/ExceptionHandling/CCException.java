@@ -12,6 +12,7 @@ public class CCException {
         Father f1 = new Father();
         try {
             Son son = (Son) f1;
+            //ok
             System.out.println("Casted");
             }
         catch (ClassCastException e){
