@@ -1,4 +1,4 @@
-package Collections;
+package Collections.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -20,8 +20,15 @@ public class IteratorArrayList {
                 itr.remove();
             }
         }
+        Iterator <Integer> itr2= al.iterator();
+        while (itr2.hasNext()){
+            System.out.print(itr2.next()+" ");
+        }
 
-        System.out.println(al);
+//        System.out.println(al);
+//        Scanner sc = new Scanner();
+        
+        
 
 
     }
