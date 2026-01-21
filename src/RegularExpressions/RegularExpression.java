@@ -74,12 +74,5 @@ public class RegularExpression {
         System.out.println("1".matches("\\s"));
 
 
-
-
-
-
-
-
-
     }
 }
