@@ -59,7 +59,7 @@ public class RegularExpression {
         System.out.println(" ".matches("\\d"));
 
         System.out.println();
-        System.out.println("a".matches("\\w"));
+        System.out.println("a".matches("\\w"));  //any word char a-z, A-Z, 0-9, underscore(_)
         System.out.println("Z".matches("\\w"));
         System.out.println("5".matches("\\w"));
         System.out.println("_".matches("\\w"));
@@ -67,7 +67,7 @@ public class RegularExpression {
         System.out.println(" ".matches("\\w"));
 
         System.out.println();
-        System.out.println(" ".matches("\\s"));
+        System.out.println(" ".matches("\\s")); //any whitespace char
         System.out.println("\t".matches("\\s"));
         System.out.println("\n".matches("\\s"));
         System.out.println("a".matches("\\s"));
